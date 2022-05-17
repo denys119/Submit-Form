@@ -1,8 +1,5 @@
 <template>
   <div class="form-container">
-    <h1>
-      Hiring Form
-    </h1>
   </div>
 </template>
 
