@@ -1,25 +1,15 @@
 <template>
   <div class="form-container">
+    <h1>
+      Hiring Form
+    </h1>
   </div>
 </template>
 
 <script>
-import BaseInput from './BaseInput';
-import BaseCheckbox from './BaseCheckbox';
-import BaseTextarea from './BaseTextarea';
-import BaseSelect from './BaseSelect';
-import BaseRadio from './BaseRadio';
   export default {
     name: 'SimpleForm',
     components: {
-      BaseCheckbox,
-      BaseInput,
-      BaseTextarea,
-      BaseSelect,
-      BaseRadio,
-      Form,
-      Field,
-      ErrorMessage
     },
   }
 </script>
